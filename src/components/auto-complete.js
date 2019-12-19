@@ -28,6 +28,7 @@ class AutoComplete extends React.Component {
     }
 
     renderSuggestion() {
+        
         if (this.state.suggestion.length === 0) {
             return null
         } else {
@@ -40,6 +41,7 @@ class AutoComplete extends React.Component {
     }
 
     render() {
+        
         return (
             <div className="auto-complete">
                 <input type="text" name="text" value={this.state.text} onChange={this.handleChange} autoComplete="off" />
