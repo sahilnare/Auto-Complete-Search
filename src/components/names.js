@@ -108,6 +108,7 @@ export default [
     'Asha',
     'Aegon',
     'Viserys',
-    'Rhaegar'
+    'Rhaegar',
+    'Geralt'
 ]
 
