@@ -1,5 +1,6 @@
 import React from "react"
 
+
 class AutoComplete extends React.Component {
     constructor(props) {
         super(props)
@@ -28,7 +29,6 @@ class AutoComplete extends React.Component {
     }
 
     renderSuggestion() {
-        
         if (this.state.suggestion.length === 0) {
             return null
         } else {
